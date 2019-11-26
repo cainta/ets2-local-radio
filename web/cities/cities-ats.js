@@ -9378,7 +9378,7 @@ city_properties = $.extend(city_properties, city_properties_canadream);
 cities = cities.concat(cities_canadream);
 
 
-//Set country to gameName, because stations are bound to a city.
+Set country to gameName, because stations are bound to a city.
 for (var i = 0; i < cities.length; i++) {
     cities[i].country = cities[i].gameName;
 }
